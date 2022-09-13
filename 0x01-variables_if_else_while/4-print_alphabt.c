@@ -6,9 +6,6 @@
 * this program prints "Programming is positive, zero, or negative
 * Return: 0
 */
-
-
-
 int main(void)
 {
 char ch;
@@ -18,6 +15,8 @@ if (ch != 'e' && ch != 'q')
 {
 putchar(ch);
 }
+}
 putchar('\n');
 return (0);
 }
+skip line
