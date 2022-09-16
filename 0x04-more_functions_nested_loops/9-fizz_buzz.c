@@ -1,4 +1,4 @@
-cat > 9-fizz_buzz.c
+#include <stdio.h>
 
 /**
 *main - program that prints either number
@@ -28,14 +28,9 @@ int main(void)
 			{
 				printf("Buzz ");
 			}
+
+
 			else
-			{
-
-
-				printf("Buzz");
-			}
-		}
-		else
 		{
 			printf("%d ", num);
 		}
