@@ -6,6 +6,7 @@
  * @str: string to print
  *
  * Return: nothing
+
  */
 
 void puts_half(char *str)
@@ -26,9 +27,9 @@ void puts_half(char *str)
 
 int _strlen(char *s)
 {
-	int len = 0;
 
 	int len = 0;
+
 	while (*(s + len) != '\0')
 		len++;
 
